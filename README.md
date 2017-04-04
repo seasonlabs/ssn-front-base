@@ -10,7 +10,7 @@ We work with plain HMTL, Ruby on Rails and PHP projects at [season](http://www.s
 Directory         | Purpose
 ----------------- | ----------------------------------------------------------------------
 `core`            | Core styles: variables, functions and mixins.
-`base`            | Holding the collection of high-level base stuff, such as the header, site navigation or the site footer.
+`base`            | Holding the collection of high-level parts.
 `layout`          | Define the the relationship between base elements or components.
 `components`      | Define the relationship between elements.
 `elements`        | Lowest-level _repeatable_ elements.
@@ -18,6 +18,10 @@ Directory         | Purpose
 
 
 ## Some examples
+
+### Base
+
+Place here the the header, site navigation or the site footer.
 
 ### Layout
 
