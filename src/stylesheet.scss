@@ -1,6 +1,12 @@
 /**
-  Here is where magic happens
+  Take a look to the readme.md file for more info.
 **/
+
+/**
+  Vendor files
+**/
+
+//@import "vendor/whatever";
 
 /**
   Core files
@@ -20,5 +26,19 @@
 @import "base/footer";
 
 /**
+  Layout
+**/
+
+@import "layout/base";
+
+/**
   Components
 **/
+
+//@import "component/whatever";
+
+/**
+  Elements
+**/
+
+//@import "component/whatever";
