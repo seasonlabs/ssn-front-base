@@ -1,0 +1,46 @@
+/**
+  Mixins
+**/
+
+@mixin old-clearfix {
+  &:before,
+  &:after {
+    content: “”;
+    display: block;
+    height: 0;
+  }
+
+ &:after { clear: both; }
+  zoom: 1; /* IE < 8 */
+}
+
+@mixin ul-reset {
+
+ list-style:none;
+  padding:0;
+  margin:0;
+
+  li {
+    margin:0;
+    padding:0;
+  }
+}
+
+@mixin button($background: $color-text , $color: $color-link ) {
+
+  background:$background;
+  color:$color;
+  display:inline-block;
+  padding:.5rem 1rem;
+  font-family:$font-base;
+  text-decoration:none;
+  border:none;
+  text-align: center;
+  cursor:pointer;
+
+ &:hover, &:focus {
+    background:lighten($background, 10%);
+    color:lighten($color, 10%);
+  }
+
+}

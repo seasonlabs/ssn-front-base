@@ -1,0 +1,35 @@
+/**
+  General variables
+**/
+
+
+// Breakpoints
+
+$tablet-breakpoint: 48rem;
+$desktop-breakpoint: 64rem;
+$large-breakpoint: 80rem;
+
+// Layout settings
+
+$site-max-width:72rem;
+$inner-padding:1rem;
+
+// Box variables
+
+$border-radius:0;
+$box-shadow:0 0 5px rgba(0,0,0,.3);
+
+// Fonts
+
+$font-base: Helvetica, sans-serif;
+$font-headlines: Times, serif;
+
+// Colors
+
+$color-base:#1e2422 ;
+$color-link: #000;
+$color-link-light: #a8b5bf ;
+$color-link-highlight:#6cfc68 ;
+$color-text: #9b9b9b ;
+$color-light: #eeeeee ;
+$color-dark: #4b4b4b ;
