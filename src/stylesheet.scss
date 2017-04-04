@@ -2,7 +2,23 @@
   Here is where magic happens
 **/
 
+/**
+  Core files
+**/
+
+@import "core/variables";
+@import "core/functions";
+@import "core/mixins";
+
+/**
+  Base elements
+**/
+
 @import "base/typography";
 @import "base/header";
 @import "base/nav";
 @import "base/footer";
+
+/**
+  Components
+**/

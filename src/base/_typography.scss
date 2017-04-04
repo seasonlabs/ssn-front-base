@@ -1,3 +1,55 @@
 /**
   General typography settings.
 **/
+
+body {
+  font-size:1em;
+  font-family:$font-base;
+  line-height:1.4em;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color:$color-text;
+  word-break: none;
+  hyphens: none;
+}
+
+a {
+  color:$color-link;
+  text-decoration:underline;
+
+ &:hover,
+  &:focus {
+    outline:0;
+    color:darken($color-link,10%);
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, .headlines {
+  font-family: $font-headlines;
+  font-weight:bold;
+  line-height:1em;
+}
+
+h1 {
+  font-size:3em;
+}
+
+h2 {
+  font-size:2.4em;
+}
+
+h3 {
+  font-size:2em;
+}
+
+h4 {
+  font-size:1.5em;
+}
+
+h5 {
+  font-size:1.2em;
+}
+
+h6 {
+  font-size:1em;
+}
